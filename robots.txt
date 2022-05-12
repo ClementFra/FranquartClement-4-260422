@@ -1,0 +1,2 @@
+User-Agent: *
+Allow: /clementfra.github.io/FranquartClement-4-260422/

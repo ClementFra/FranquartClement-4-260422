@@ -17,6 +17,22 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
+/* fil Ariane */
+.breadcrumb ul{
+  display: flex;
+  justify-content: center;
+  
+}
+.breadcrumb li::before{
+  content: "→";
+  margin:0 10px 0 10px;
+}
+.breadcrumb li:first-child::before {
+  content: "";
+}
+ul{
+  list-style: none;
+}
 
 #page-loading-blocs-notifaction {
   position: fixed;
