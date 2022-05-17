@@ -53,7 +53,7 @@
 				<nav class="navbar row">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
-								alt="atlanta web design logo" height="40" /></a>
+								alt="tête de panthère en noir et blanc avec sur le coté droit le nom de l'agence" height="40" /></a>
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
@@ -63,10 +63,10 @@
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
-								<a href="index.html">Accueil</a>
+								<a href="index.html" tabindex="0">Accueil</a>
 							</li>
 							<li>
-								<a href="contact.html">Nous contacter !</a>
+								<a href="contact.html" tabindex="0">Nous contacter !</a>
 							</li>
 						</ul>
 					</div>
@@ -102,31 +102,31 @@
 							<form id="form_1" novalidate data-success-msg="Your message has been sent."
 								data-fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 								<div class="form-group">
-									<label>
+									<label for="name" >
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input type="text" id="name" placeholder="Nom requis" class="form-control" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="email" >
 										Adresse email
 									</label>
-									<input id="email" class="form-control" type="email" required />
+									<input id="email"  class="form-control" type="email" placeholder="Email requis" required />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="input_504" >
 										Comment nous avez-vous connu ?
 									</label>
 									<input class="form-control" type="email" required id="input_504" />
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message" >
 										Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 									</label><textarea id="message" class="form-control" rows="4" cols="50"
 										required></textarea>
 								</div>
 								<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
-									type="submit">
+									type="submit" tabindex="1">
 									Envoyer
 								</button>
 							</form>
@@ -159,26 +159,26 @@
 						</p>
 						<nav class="row row-no-gutters social">
 							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://www.twitter.com"><span
+								<div class="text-center" >
+									<a class="social" href="https://www.twitter.com" tabindex="3"><span
 											class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://www.facebook.com"><span
+								<div class="text-center" >
+									<a class="social" href="https://www.facebook.com" tabindex="3"><span
 											class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://www.dribble.com"><span
+								<div class="text-center" >
+									<a class="social" href="https://www.dribble.com" tabindex="3"><span
 											class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
-								<div class="text-center">
-									<a class="social" href="https://www.instagram.com"><span
+								<div class="text-center" >
+									<a class="social" href="https://www.instagram.com" tabindex="3"><span
 											class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
