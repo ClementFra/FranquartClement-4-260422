@@ -804,7 +804,14 @@ p {
   background: #333 ;
   color: #f3976c ;
 }
-
+.btn-submit{
+  background: black;
+  color: #f3976c ;
+}
+.btn-submit:hover{
+  background: #333 ;
+  color: #f3976c ;
+}
 .ltc-white {
   color: black ;
 }

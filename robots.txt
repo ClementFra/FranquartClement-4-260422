@@ -1,2 +1,3 @@
 User-Agent: *
-Allow: /clementfra.github.io/FranquartClement-4-260422/
+Disallow:
+Sitemap: https://clementfra.github.io/FranquartClement-4-260422/sitemap.xml
