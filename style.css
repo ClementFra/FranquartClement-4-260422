@@ -776,7 +776,7 @@ p {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
 
-.black-background {
+.tangerine-background {
   background-color: #f3976c;
   padding: 20px 0 20px 0;
   opacity: 0.9;
@@ -789,10 +789,6 @@ p {
 
 .bgc-white {
   background-color: #ffffff;
-}
-
-.bgc-dark-slate-blue {
-  background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
