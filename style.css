@@ -107,7 +107,17 @@ h3 {
 .bloc-sm {
   padding: 20px 50px;
 }
+
 /* background */
+
+#bloc-7 button{
+  background-color: #000000;
+  color: #f3976c;
+}
+#bloc-7 button:hover{
+  background-color: #333;
+  color: #f3976c;
+}
 
 .bg-center,
 .bg-l-edge,
@@ -648,7 +658,7 @@ a[data-lightbox]:hover img {
   position: absolute;
   left: 15px;
   right: 15px;
-  bottom: 5px;
+  bottom: -5px;
 }
 
 .close-lightbox {
