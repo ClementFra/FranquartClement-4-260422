@@ -51,7 +51,9 @@ h3 {
   color: #ffffff ;
 }
 /* fil Ariane */
-
+.breadcrumb{
+  color: #000000;
+}
 .breadcrumb ul{
   display: flex;
   justify-content: center;
@@ -64,6 +66,7 @@ h3 {
 }
 .breadcrumb li:first-child::before {
   content: "";
+  color: #333;
 }
 
 
@@ -844,9 +847,6 @@ p {
   border-color: #364577 ;
 }
 
-.bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
   background-image: url("img/agence-la-panthere.jpg");
@@ -854,6 +854,9 @@ p {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.jpg");
+}
+cite{
+  color: #000000;
 }
 
 /* media querry desktop */
