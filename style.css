@@ -79,6 +79,18 @@ h3 {
   background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
 }
 /* bloc */
+#bloc-0 div a img{
+  height: 40px;
+}
+#bloc-0 li a{
+  color: #000000;
+}
+#bloc-0 li a:hover{
+  color: #333;
+}
+#bloc-1-hero div img{
+  width: 100px;
+}
 .bloc {
   width: 100%;
   clear: both;
@@ -167,7 +179,7 @@ h3 {
 /*color*/
 
 h1 {
-  color: #333333 ;
+  color: #000000 ;
 }
 
 h4 {
