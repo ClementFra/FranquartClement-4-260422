@@ -81,6 +81,7 @@ h3 {
 /* bloc */
 #bloc-0 div a img{
   height: 40px;
+  width: auto;
 }
 #bloc-0 li a{
   color: #000000;
@@ -90,6 +91,7 @@ h3 {
 }
 #bloc-1-hero div img{
   width: 100px;
+  height: auto;
 }
 #bloc-4-portfolio div img{
   width: 270px;
