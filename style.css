@@ -1099,6 +1099,9 @@ cite{
     padding-left: 0;
     padding-right: 0;
   }
+  #bloc-4-portfolio div a{
+    margin-left: 15%;
+  }
 }
 @media (max-width: 320px){
   #bloc-4-portfolio div a{
